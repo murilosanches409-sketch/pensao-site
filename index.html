@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Controle de Pensão</title>
+
+<style>
+body{
+font-family: Arial;
+background:#f4f4f4;
+margin:0;
+}
+
+header{
+background:#2c3e50;
+color:white;
+padding:15px;
+text-align:center;
+}
+
+.container{
+padding:20px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+}
+
+th, td{
+padding:10px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+th{
+background:#34495e;
+color:white;
+}
+
+.disponivel{
+color:green;
+font-weight:bold;
+}
+
+.ocupado{
+color:red;
+font-weight:bold;
+}
+
+button{
+padding:8px 15px;
+background:#3498db;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+button:hover{
+background:#2980b9;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Controle de Pensão</h1>
+</header>
+
+<div class="container">
+
+<h2>Quartos</h2>
+
+<table>
+<tr>
+<th>Quarto</th>
+<th>Status</th>
+<th>Preço</th>
+<th>Morador</th>
+</tr>
+
+<tr>
+<td>Quarto 1</td>
+<td class="ocupado">Ocupado</td>
+<td>R$700</td>
+<td>João</td>
+</tr>
+
+<tr>
+<td>Quarto 2</td>
+<td class="disponivel">Disponível</td>
+<td>R$650</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>Quarto 3</td>
+<td class="disponivel">Disponível</td>
+<td>R$750</td>
+<td>-</td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
